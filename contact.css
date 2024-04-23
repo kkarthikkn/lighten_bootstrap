@@ -1,0 +1,138 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.top-head{
+    background-color: rgb(255, 204, 0);
+    height: 50px;
+    /* padding-top: 15px;
+    padding-bottom: 15px; */
+}
+
+.logo{
+    font-size: 18px;
+    margin-left: 67px;
+    align-items: center;
+}
+
+.logo i{
+    margin-left: 25px;
+}
+
+.info{
+    float: right;
+    padding-right: 67px;
+}
+
+.bottom-head{
+   
+    background-color: white;
+     
+}
+
+.navbar{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.logo-img img{
+    width: 100%;
+    /* height:50px ; */
+    padding-left:50px ;
+}
+
+/* .nav-item a{
+    color: black;
+    font-weight: 600;
+} */
+
+.nav-link .active{
+    color:rgb(255, 204, 0) ;
+}
+
+.nav-link {
+    color: black;
+    font-weight: 600;
+}
+
+.nav-link :hover{
+    color: orange !important;
+}
+
+.container .row h2{
+    padding-top: 80px;
+    padding-bottom: 70px;
+    font-size: 3rem;
+    text-align: center;
+    font-weight:bold;
+}
+
+/* *****************************form ********************************** */
+.form-control{
+    border: 3px solid rgb(255, 204, 0);
+    border-radius: 1px;
+    color: grey;
+    height: 50px;
+}
+
+textarea{
+    border: 3px solid rgb(255, 204, 0);
+    border-radius: 1px;
+    width: 100%;
+    color: grey;
+}
+
+.btn-send button{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 0px;
+    width: 200px;
+    height: 50px;
+    align-items: center;
+}
+
+.btn-send button:hover{
+    background-color: rgb(255, 204, 0);
+    color: black;
+    border: 1px solid rgb(255, 204, 0);
+    
+}
+/* *************************footer ******************************** */
+.footer{
+    padding-top: 80px;
+    padding-bottom: 40px;
+    background-color: black;
+    color: white;
+    /* padding-left: 50px;
+    padding-right: 50px; */
+    
+}
+
+.icon{
+    margin-left: 100px;
+    margin-right: 80px;
+    align-items: center;
+}
+
+.icon i{
+   
+    font-size: 1.5rem;
+    /* padding-left: 50px; */
+    /* display: flex;
+    justify-content: center; */
+}
+
+
+.footer-bottom h4{
+    background-color: rgb(255, 204, 0);
+    font-size: large;
+    font-weight: 500;
+    height: 50px;
+    padding-top: 25px;
+    padding-bottom: 45px;
+}
